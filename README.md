@@ -1,2 +1,2 @@
 # EDA
-It's AboutData Preprocessing,cleaning and Feature Extractionand also Datasets,Programming Files
+It's About Data Preprocessing,cleaning and Feature Extraction and also Datasets,Programming Files
