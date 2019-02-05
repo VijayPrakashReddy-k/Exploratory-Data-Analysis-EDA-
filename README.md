@@ -84,8 +84,14 @@ Exploratory data analysis (EDA) is an essential step to understand the data bett
 ## i. Distribution Plots
 When plotting distributions, it is important to compare the distribution of both train and test sets. If the test set very specific to certain features, the model will underfit and have a low accuarcy.
 
+![e3](https://user-images.githubusercontent.com/42317258/52274753-a05df200-2973-11e9-8dbb-9f384dee5936.PNG)
+
 ## ii. Count Plots
 For **categorical features**, you may want to see if they have enough sample size for each category.
 
+![e4](https://user-images.githubusercontent.com/42317258/52274760-a48a0f80-2973-11e9-8ba6-7d291e802187.PNG)
+
 ## iii. Box Plots
 Using the 50 percentile to compare among different classes, it is easy to find feature that can have high prediction importance if they do not overlap. Also can be use for outlier detection. **Features have to be continuous.**
+
+![e5](https://user-images.githubusercontent.com/42317258/52274768-a94ec380-2973-11e9-8fbe-5d8a7248ffa4.PNG)
