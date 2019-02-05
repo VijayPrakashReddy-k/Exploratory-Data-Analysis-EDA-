@@ -1,6 +1,4 @@
-# EDA
-It's About Data Preprocessing,cleaning and Feature Extraction and also Datasets,Programming Files <br>
-General points to remember;
+General points to remember; <br>
 # 1. Variables
 
     - x = independent variable = explanatory = predictor
@@ -78,3 +76,16 @@ accuarcy percentage score to obtain the predictive accuarcy.
 ## 4.8. Cross Validation
 
 When all code is working fine, remove the train-test portion and use Grid Search Cross Validation to compute the best parameters with cross validation.
+
+# ->I. Exploratory Data Analysis
+
+Exploratory data analysis (EDA) is an essential step to understand the data better; in order to engineer and select features before modelling. This often requires skills in visualisation to better interpret the data.
+
+## i. Distribution Plots
+When plotting distributions, it is important to compare the distribution of both train and test sets. If the test set very specific to certain features, the model will underfit and have a low accuarcy.
+
+## ii. Count Plots
+For **categorical features**, you may want to see if they have enough sample size for each category.
+
+## iii. Box Plots
+Using the 50 percentile to compare among different classes, it is easy to find feature that can have high prediction importance if they do not overlap. Also can be use for outlier detection. **Features have to be continuous.**
